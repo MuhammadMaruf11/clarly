@@ -1,0 +1,19 @@
+.banner-area{
+    margin-top: -120px;
+    .banner-box{
+        box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
+    }
+}
+
+.banner-logo{
+    background: #fff;
+    padding: 80px 0!important;
+    margin: 0!important;
+}
+
+button.slick-prev.slick-arrow{
+    display: none!important;
+}
+button.slick-next.slick-arrow{
+    display: none!important;
+}

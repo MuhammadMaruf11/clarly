@@ -1,0 +1,94 @@
+.our-team-area{
+    position: relative;
+    .bg-team{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        z-index: -10;
+    }
+}
+
+.team-thumb{
+    position: relative;
+    .thumb-icon{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        font-size: 14px;
+        .google{
+            i{
+                color: #fff;
+                background: #ea4235;
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 5px;
+                visibility: hidden;
+            }
+        }
+        .facebook{
+            i{
+                color: #fff;
+                background: #5a7dff;
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 5px;
+                visibility: hidden;
+            }
+        }
+        .twitter{
+            i{
+                color: #fff;
+                background: #1bb2e9;
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                text-align: center;
+                visibility: hidden;
+            }
+        }
+        .main-icon{
+            i{
+                background: #1a52a8;
+                color: #fff;
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 5px;
+                &:hover{
+                    .sub-icon{
+                        .twitter{
+                            visibility: visible;
+                        }
+                        .facebook{
+                            visibility: visible;
+                        }
+                        .google{
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .thumb-content{
+        position: absolute;
+        bottom: -60px;
+        height: 120px;
+        width: 73%;
+        background: #fff;
+        border-bottom: 1px solid #2b70b3;
+        padding: 30px;
+        h4{
+            font-size: 24px;
+            color: #234969;
+            margin-bottom: 20px;
+        }
+    }
+}
+

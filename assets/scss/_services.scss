@@ -1,0 +1,114 @@
+.services-area{
+    position: relative;
+    .bg-services{
+        height: 912px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -10;
+        position: absolute;
+        top: -120px;
+    }
+}
+
+.section-title-white{
+
+    i{
+        color: #fff;
+        background: #393f48;
+    }
+    span{
+        color: #fff;
+    }
+    h2{
+        color: #fff;
+        margin-bottom: 90px;
+    }
+}
+
+
+.services-items{
+    position: relative;
+    border-radius: 20px;
+    margin: 0 18px;
+    .services-img{
+        width: 100%;
+    }
+    .services-icon{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%,-60%);
+        height: 70px;
+        width: 70px;
+        background: #fff;
+        border-radius: 50%;
+        line-height: 70px;
+    }
+    .services-text{
+        padding-top: 65px;
+        padding-bottom: 40px;
+        background: #fff;
+        transition: .3s;
+        overflow: hidden;
+        &:hover{
+            background-image: -moz-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+            background-image: -webkit-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+            background-image: -ms-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+            h4{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+            a{
+                span{
+                    color: #fff;
+                    display: inline-block;
+                }
+                i{
+                    color: #fff;
+                }
+            }
+        }
+        h4{
+            font-size: 20px;
+            font-weight: 700;
+            color: #1f2044;
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        a{
+            span{
+                font-size: 14px;
+                text-transform: uppercase;
+                display: none;
+            }
+            i{
+                margin-left: 10px;
+                color: #565872;
+            }
+        }
+    }
+}
+.services-wrap{
+        position: relative;
+    .services-shape1{
+        position: absolute;
+        text-align: left;
+        top: -30px;
+        left: -25px;
+        z-index: -5;
+    }
+    .services-shape2{
+        position: absolute;
+        text-align: right;
+        top: -60px;
+        right: 19%;
+    }
+}
+
+
+
+  

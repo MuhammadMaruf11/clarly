@@ -1,0 +1,29 @@
+.records-area{
+    position: relative;
+    .bg-records{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        z-index: -10;
+    }
+}
+
+.records-items{
+    padding: 0 10px;
+    .records-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    h4{
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+    p{
+        color: #fff;
+    }
+}
+  

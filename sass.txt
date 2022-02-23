@@ -1,0 +1,1 @@
+sass --watch C:\Users\MMS\Desktop\clarly\assets\scss\main.scss:C:\Users\MMS\Desktop\clarly\assets\css\main.css

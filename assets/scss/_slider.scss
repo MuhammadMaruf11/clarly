@@ -1,0 +1,101 @@
+.single-slide{
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    &:before{
+        position: absolute;
+        content: "";
+        background-image: -moz-linear-gradient( 0deg, rgb(0,0,0) 0%, rgb(0,0,0) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(0,0,0) 0%, rgb(0,0,0) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(0,0,0) 0%, rgb(0,0,0) 100%);
+        opacity: 0.2;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 900px;
+        z-index: -1;
+    }
+}
+
+.slider-active-wrap .swiper-button-next{
+    display: none;
+}
+.slider-active-wrap .swiper-button-prev{
+    display: none;
+}
+.swiper-pagination.swiper-pagination-fraction{
+    display: none;
+}
+
+
+
+.slider-content-1{
+    padding: 250px 375px;
+    z-index: 65;
+    span{
+        position: relative;
+        font-size: 22px;
+        font-family: $poppins;
+        color: #fff;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        &:after{
+            position: absolute;
+            bottom: 0;
+            content: "";
+            width: 60px;
+            height: 2px;
+            color: #fff;
+            background: #fff;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -80px;
+        }
+    }
+    h2{
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    .theme-btn{
+        background-image: -moz-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+        border-radius: 5px;
+        padding: 20px 25px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: $poppins;
+        color: #fff;
+        margin-right: 25px;
+        i{
+            margin-left: 10px;
+        }
+        &:hover{
+            background: tranparent;
+        }
+    }
+    .sub-btn{
+        border: 1px solid #a3a4a6;
+        background: tranparent;
+        border-radius: 5px;
+        padding: 20px 30px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: $poppins;
+        color: #fff;
+        i{
+            margin-left: 10px;
+        }
+        &:hover{
+            background-image: -moz-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+            background-image: -webkit-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+            background-image: -ms-linear-gradient( 0deg, rgb(66,140,212) 0%, rgb(0,78,154) 100%);
+        }
+    }
+}
+
